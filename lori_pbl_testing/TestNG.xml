@@ -1,0 +1,12 @@
+<suite name="Regression" parallel="tests">
+<listeners>
+<listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+</listeners>
+  
+     <test name="MyTest1">
+        <classes>
+            <class name="com.pbl.testing.utils.RunCucumberTest" />
+        </classes>
+    </test>
+
+</suite>
